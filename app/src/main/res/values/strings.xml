@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MCProject</string>
+    <string name="passLengthError">Password Should be between 8 to 12 characters</string>
+    <string name="emptyPassError">Please Enter Password</string>
+    <string name="emptyMailError">Please Enter Email</string>
+    <string name="invalidEmailError">Email is invalid</string>
+    <string name="userMail">userMail</string>
+    <string name="Pass">Pass</string>
+    <string name="NoUserError">User doesn\'t exist</string>
+    <string name="loginSuccesMessage">Login Successful</string>
+    <string name="wrongCresError">Username or Password is wrong</string>
+    <string name="regUserError">User already registered</string>
+    <string name="RegSuccessMessage">Registration Successful</string>
+    <string name="yourPass">Your password is</string>
+    <string name="DatePickerDialogue">Pick DOB</string>
+    <string name="DOBError">Please Select DOB</string>
+    <string name="name">Message :</string>
+    <string name="mesgSent">Message Sent Successfully</string>
+    <string-array name="genderArray">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+</resources>

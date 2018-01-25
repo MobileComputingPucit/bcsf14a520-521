@@ -1,0 +1,35 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.junaid.myproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.junaid.myproject.loginClass"
+            android:label="MC Project"
+            android:theme="@style/AppTheme1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"></action>
+                <category android:name="android.intent.category.LAUNCHER"></category>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.junaid.myproject.forgotPass"
+            android:label="MC Project"
+            android:theme="@style/AppTheme1">
+
+        </activity>
+        <activity android:name="com.example.junaid.myproject.registerClass"
+            android:label="MC Project"
+            android:theme="@style/AppTheme1">
+
+        </activity>
+        <activity android:name="com.example.junaid.myproject.logout"
+            android:label="MC Project"
+            android:theme="@style/AppTheme1">
+
+        </activity>
+    </application>
+
+</manifest>
